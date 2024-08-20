@@ -8,9 +8,13 @@
 <body>
     <h1>Bot Saludador</h1>
     <form id="greetingForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name"><br><br>
+
         <button type="button" onclick="greet()">Saludar</button>
     </form>
-
+    <p id="greetingMessage"></p>
     <script src="./src/presenter.js"></script>
 </body>
 </html>
+
